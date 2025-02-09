@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+* {
+    margin: 0;
+}
+body {
+    font-family: "Merriweather";
+    background-color: #C2C0A6;
+}
+#logo {
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+h1 {
+    font-size: clamp(20px, 6vw, 100px);
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #024554;
+}
+h2 {
+    font-size: clamp(10px, 5vw, 50px);
+    color: #53736A;
+    }
+p {
+    margin-bottom: 10px;
+    text-indent: 10px;
+    margin-left: 10px;
+}
+.item {
+    margin-left: 0;
+    text-indent: 0px;
+}
+.titulo {
+display: flex;
+justify-content: space-around;
+}
+
+
+.titulo img {
+width:  40%;
+height: 40%;
+max-width: 300px;
+margin: 0;
+padding: 0;
+}
+footer {
+    margin-top: 10px;
+}
